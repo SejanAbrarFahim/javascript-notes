@@ -64,5 +64,54 @@
     
  
  // The at() method returns an indexed element from an array. at() method returns the same as [].
+     const userInfo = ["name", "pass" , "email"];
+     console.log(userInfo.at(2)); // email 
+     console.log(userInfo.at(0)); // name
+
+
+  
+ // The join() method alos joins all array elements into a string :
+      const userId = ["name", "pass" , "email"];
+      console.log(userId.join(" # "));
+
+
+
+ // delete() method [warning! using delete() leaves undefined holes in the array] :
+      const delInfo = ["name", "pass" , "email"];
+       delete delInfo[1];
+      console.log(delInfo); //[ 'name', <1 empty item>, 'email' ]
+
+
+
+  // The concat() method creates a new array by merging (concatenating) existing array :
+   const mainArray = [ 'name',  'email' ]; 
+   const margingArray = ["pass"];
+   const marge = mainArray.concat(margingArray);
+   console.log(marge); // [ 'name', 'email', 'pass' ] 
+
+   const margingArray2 = ["age"];
+   const marge2 = marge.concat(margingArray2); // mainArray.concat(marginArray , marginArray2 ) ;
+   console.log(marge2); 
+
+
+
+  // The flat() method creates a new array with sub-array elements concatenated to a specifed depth .
+   const item1 = [["text"] , ["card"] , ["topic"]];
+   console.log(item1.flat()); // [ 'text', 'card', 'topic' ]
 
  
+
+ // you can use splice() to remove elements without leaving "holes" in the array : 
+   const items6 = ["lorem" , 12323, 1.673483 , "text" , true , false , null , 10];
+   items6.splice(0,3);
+   console.log(items6); //[ 'text', true, false, null , 10 ]
+   console.log(items6)  //[ 'text', true, false, null , 10 ]
+
+
+ // tospliced() method -
+  /* The toSpliced() method adds and/or removes array elements. And the toSpliced() method returns a new array. toSpliced() method does not change the original array. toSpliced() method is the copying version of the splice() method */
+   const items7 = ["lorem" , 12323, 1.673483 , "text" , true , false , null];
+   const spliced = items7.toSpliced(0,5);
+   console.log(spliced); //[ false, null ]
+   console.log(items7); //["lorem" , 12323, 1.673483 , "text" , true , false , null];
+
