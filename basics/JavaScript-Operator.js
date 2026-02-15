@@ -20,7 +20,7 @@ const totalPrice = price + deliveryCharg ;
 console.log(totalPrice);
 
     //   The + can also be use to add  strings:
-    let firstName = "hunter";
+    let firstName = "lorem";
     let lastName = "max";
     let fullName = firstName + ' ' + lastName ;  //(+' ') space
     console.log(fullName);
@@ -30,7 +30,7 @@ console.log(totalPrice);
     console.log(x)
   
     // adding number and string
-    let str = "this is hunter ";
+    let str = "this is lorem ";
     let num = 100 ;
     let sumS = str + num ;
     console.log( sumS);   // console.log(typeof sumS); = string
