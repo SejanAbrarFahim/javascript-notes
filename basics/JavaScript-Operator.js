@@ -106,12 +106,12 @@ console.log(a)
  // (--x) or (x--)
   let weight = 62 ;
      --weight; 
-  console.log(weight);
+  console.log(weight); // 61
 
 
 
 
-// Comparison operators (true or fals)
+// Comparison operators (true or false)
  /* 01. < - less than .   
     02. > - greater than .
     03. <= - less than or equal to .
@@ -152,7 +152,7 @@ console.log(a)
 
 
 
-//   logical operator (true or fals)
+//   logical operator (true or false)
  /* 01. (!) logical NOT .
     02. (||) logical OR .
     03. (&&) logical AND. */
@@ -160,8 +160,8 @@ console.log(a)
  // (!)
     let eligible = false ;
     let noteligble = true ;
-    console.log(!eligible);
-    console.log(!noteligble);
+    console.log(!eligible); // true
+    console.log(!noteligble); // flase
 
  // (||)
    let Or = true ;
@@ -175,7 +175,7 @@ console.log(a)
  // (&&)  
     let typeAn = true ;
     let typeBl = true ;
-    console.log( typeAn && typeBl);
+    console.log( typeAn && typeBl); // true
 
 
 
