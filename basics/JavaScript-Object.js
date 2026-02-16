@@ -3,12 +3,12 @@
   Functions are stored as key:function() pairs called methods. */
 
 const car = {
-   type : "fiat",
-   model: "500",
-   color: "white"
+   type : "sports" ,
+    model : "gt3" ,
+    color : "green"
 }
 
-console.log(car);
+console.log(car); // { type: 'sports', model: 'gt3', color: 'green' }
 
 
 const person = {
@@ -18,7 +18,7 @@ const person = {
     eyeColor: "blue" 
 };
 
-console.log(person["firstName"]);
+console.log(person["firstName"]); // john
 
 
 
@@ -42,7 +42,7 @@ const man = {
 man.lastName = "man1" ;
 man.age = 22 ;
 
-console.log(man)
+console.log(man) // { nameP: 'name', lastName: 'man1', age: 22 }
 
 
 // Adding a new property in object
@@ -55,7 +55,7 @@ const blackMan = {
 
 blackMan.fColor = "red";
 blackMan.fFood = "rice";
-console.log(blackMan);
+console.log(blackMan); // { nameF: 'black', nameL: 'man', age: 45, fColor: 'red', fFood: 'rice' }
 
 
 
@@ -70,7 +70,7 @@ const whiteMan ={
 
 delete whiteMan.fColor
 
-console.log(whiteMan);
+console.log(whiteMan); // { firstName: 'white', lastName: 'man', age: 45 }
 
 
 
@@ -83,8 +83,8 @@ const BadMan ={
     fColor: "red"
 };
 
-console.log("age" in BadMan);
-console.log("fFood" in BadMan);
+console.log("age" in BadMan); // true
+console.log("fFood" in BadMan); //false
 
 
 

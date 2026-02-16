@@ -96,12 +96,12 @@ console.log(a)
  // (-x)
   let xn = 10 ;
   let yn = -xn ;
-  console.log(yn);
+  console.log(yn); // -10 
 
  //  (++x) or (x++)
    let age = 20 ;
        ++age ;
-    console.log(age);
+    console.log(age); // 21
 
  // (--x) or (x--)
   let weight = 62 ;
