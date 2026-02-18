@@ -48,3 +48,42 @@
 
     let number = Math.sign(2);
     console.log(number); //1
+
+
+  //Math.pow(x,y) - Returns The valur of x to the power of y
+     let Pow = Math.pow(5,2);
+     console.log(Pow); //25
+  
+
+   
+  // Math.sqrt(x) - Returns the square root of x
+     let square = Math.sqrt(64);
+     console.log(square); // 8
+     
+     let Square = Math.sqrt(55);
+     console.log(Square); // 7.4262
+
+   
+     
+  // Math.abs(x) - Returns the absolute (positiove) value of x
+     let Absolute = Math.abs(-5.4);
+     console.log(Absolute); //5.4
+
+
+
+  // Math.min() , Math.max()  - Math.min() and Math.max() can be used to find the lowest or the highest value in a list of arguments
+
+    let min = Math.min(1,2,3,4,5,6,7,8,9,-10);
+    console.log(min); // -10
+
+    let Max = Math.max(1,2,3,4,5,32,34,23,10);
+    console.log(Max); // 35 
+
+   
+    
+  // Math.random() - Returns a random Numberbetween 0 (inclusive) , and 1 (exclusive) .  
+
+    let random = Math.random();
+    console.log(random); // 0-1  (0.23479237478134, 0.347398273498347, 0.98348813748198347)
+
+    
