@@ -28,7 +28,7 @@ const cat = {
     weight: 3 
 };
 
-console.log(cat.color)
+console.log(cat.color) // black
 
 
 
@@ -36,7 +36,7 @@ console.log(cat.color)
 const man = {
     firstName:"name",
     lastName:"man",
-    age:20,
+    age:20
 };
 
 man.lastName = "man1" ;
