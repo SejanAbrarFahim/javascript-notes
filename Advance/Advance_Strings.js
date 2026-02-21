@@ -3,10 +3,10 @@
  // JavaScript String charAt()
    // The charAt() method returns the character at a specified index (position) in a string:
    let text = "junior programmers";
-   console.log(text.charAt(3));
+   console.log(text.charAt(3)); // i
 
    let group = "science";
-   console.log(group.charAt(0));
+   console.log(group.charAt(0)); // s
 
  
 
@@ -15,8 +15,8 @@
    let text1 = "hello" ;
    let text2 = "programmers" ;
    let text3 = "what's up" ;
-   console.log(text1.concat(" " , text2 ));
-   console.log(text1.concat(" " , text2 , " " , text3));
+   console.log(text1.concat(" " , text2 )); // hello programmers
+   console.log(text1.concat(" " , text2 , " " , text3)); // hello programmers what's up
 
 
 
@@ -26,10 +26,10 @@
       03.   The indexOf() method is case sensitive. */
 
     let type1 = "Hello world, welcome to the universe";
-    console.log(type1.indexOf("welcome"));
+    console.log(type1.indexOf("welcome")); // 13
 
     let type2 = "Hello world, welcome to the universe";
-    console.log(type2.indexOf("world"));
+    console.log(type2.indexOf("world")); // 6
 
 
 
@@ -37,17 +37,17 @@
    // The length property returns the length of a string:
     
    let type3 = "Hello world" ;
-   console.log(type3.length) ;
+   console.log(type3.length) ; // 11
 
 
  
- // JavaScript String indexOf() 
+ // JavaScript String repeat() 
    /* 01. The repeat() method returns a string with a number of copies of a string.
       02. The repeat() method returns a new string.
       03. The repeat() method does not change the original string. */
 
-     let repeat1 = "Please subscribe , " ;
-     console.log(repeat1.repeat(2));
+     let repeat1 = "Please subscribe " ;
+     console.log(repeat1.repeat(2)); // Please subscribe Please subscrib
 
 
  
@@ -57,7 +57,7 @@
       03. The replace() method does not change the original string. */
 
     let replace1 = "Hello bro" ;
-    console.log(replace1.replace("bro", "world"));
+    console.log(replace1.replace("bro", "world")); // Hello Wrold
 
 
 
