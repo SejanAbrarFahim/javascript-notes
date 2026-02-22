@@ -24,7 +24,7 @@
         console.log("thursday");
         break;
     case 7: 
-        console.log("thursday")
+        console.log("friday")
         break;
     
     default:
