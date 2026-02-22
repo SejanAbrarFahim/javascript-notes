@@ -59,7 +59,7 @@
 
   // The javacript method tostring() convert an array to a string of (comma separated) array valuse .
      const myInfo = ["fahimi" , 20 ,"017342374" , "tangail"];
-     console.log(myInfo.toString())  // data type string 
+     console.log(myInfo.toString());  // data type string 
 
     
  
@@ -72,7 +72,7 @@
   
  // The join() method alos joins all array elements into a string :
       const userId = ["name", "pass" , "email"];
-      console.log(userId.join(" # "));
+      console.log(userId.join(" # ")); // name # pass # email
 
 
 
