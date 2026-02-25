@@ -114,22 +114,3 @@
    const spliced = items7.toSpliced(0,5);
    console.log(spliced); //[ false, null ]
    console.log(items7); //["lorem" , 12323, 1.673483 , "text" , true , false , null];
-
-
-
-  
-
- // .map() = accepts a callback and applies that function to each element of an array , then return a new array -
-
-   const number1 = [1,2,3,4];
-   const result = number1.map(function(num) {
-     return num * 2 ;
-   });
-   console.log(result);
-   
-
-    const number2 = [1,2,3,4];
-   const result1 = number2.map(function(num1) {
-     return num1 * 3 ;
-   });
-   console.log(result1);
