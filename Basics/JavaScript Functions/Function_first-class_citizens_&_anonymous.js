@@ -43,7 +43,7 @@
      }
 
      let result = math(2,3, total);
-     console.log(result); // 30
+     console.log(result); // 25
 
 
 
