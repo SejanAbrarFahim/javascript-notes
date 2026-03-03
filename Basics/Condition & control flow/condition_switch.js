@@ -6,25 +6,25 @@
 
    switch (day) {
     case 1:
-       console.log("saturday");
+       dayName = ("saturday");
        break;
     case 2:
-        console.log("sunday");
+        dayName = ("sunday");
         break;
     case 3:
-         console.log("Monday");
+         dayName = ("Monday");
          break;
     case 4:
-        console.log("tuesday");
+        dayName = ("tuesday");
         break;
     case 5:
-        console.log("wednesday");
+        dayName = ("wednesday");
         break;
     case 6:
-        console.log("thursday");
+        dayName = ("thursday");
         break;
     case 7: 
-        console.log("friday")
+       dayName = ("friday")
         break;
     
     default:
@@ -32,6 +32,6 @@
    };
    
    console.log(dayName); // Monday
-                         // undefined
+                       
 
    
