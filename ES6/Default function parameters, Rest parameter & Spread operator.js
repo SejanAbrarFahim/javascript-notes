@@ -43,5 +43,18 @@ Rest(1,23,342,2342,23423,2,3,4,4,); //1 23 342 [ 2342, 23423, 2, 3, 4, 4 ]
     
   // 02. Concatenating
 
-     let teacher = ["teacher1"]
+     let teacher = ["teacher1","teacher2","teacher3"];
+     let supportTeam =["support1","support2"]
+     let programmer = [...teacher,...supportTeam];
+     console.log(programmer); // [ 'teacher1', 'teacher2', 'teacher3', 'support1', 'support2' ]
      
+
+
+  // copying
+     let score = [80,90,100];
+     let worldCup = [...score];
+     console.log(worldCup);
+    
+     let country = ["Bangladesh","Japan","China"];
+     let fabC = [...country];
+     console.log(fabC);
