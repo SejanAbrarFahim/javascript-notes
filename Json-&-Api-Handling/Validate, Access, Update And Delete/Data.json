@@ -1,0 +1,14 @@
+{
+    "Userinfo":[
+        {"userName":"Sejan", "UserName":"sejan","Gender":"Male"},
+        {"address":"Dhaka,Bangladesh", "city":"Bangladesh"},
+        {"company":"Next Level dev"}
+    ] ,
+    
+    "ComapnyInfo":{
+        "name":"hp",
+        "YearlyRevenue":"500k"
+    }
+    
+}
+
