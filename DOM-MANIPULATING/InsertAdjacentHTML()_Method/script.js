@@ -1,0 +1,1 @@
+// The insertAdjacentHTML() is a method of the Element interface so that you can invoke it from any element.
