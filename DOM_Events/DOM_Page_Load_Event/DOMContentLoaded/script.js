@@ -1,0 +1,1 @@
+// The DOMContentLoaded event is fired when the HTML document has been completely parsed.In practice, you can listen to the DOMContentLoaded event when you place the JavaScript in the head of the page but referencing elements in the body.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beforeunload</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <script>
+        addEventListener("beforeunload",(event)=>{
+            event.preventDefault()
+
+            event.returnValue = ""
+        })
+    </script> 
+    <!-- Before the webpage and its resources are unloaded, the beforeunload event is fired. At this time, the webpage is still visible and you have an opportunity to cancel the event. -->
+</body>
+</html>
