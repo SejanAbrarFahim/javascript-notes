@@ -28,9 +28,9 @@
         [name] : "He is a Programmer"
       }
 
-     console.log(info); // { Message: 'Hi , programmer', userName: 'lorem' }
+     console.log(Info); // { lorem: 'He is a Programmer' }
      console.log(name); // lorem
-     console.log(info["lorem"]); // lorem
+     console.log(Info["lorem"]); // He is a Programmer
 
 
   // step 4
