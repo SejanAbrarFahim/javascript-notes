@@ -5,8 +5,8 @@
         }
         this.name = name;
     }
-    let MyPerosn = new person("lorem")
-    console.log(MyPerosn); // person { name: 'lorem' }
+    let MyPerson = new person("lorem")
+    console.log(MyPerson); // person { name: 'lorem' }
 
 
 
