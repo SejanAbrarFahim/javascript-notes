@@ -10,4 +10,4 @@ const textOne = '{"name":"Lorem","country":"Dhaka"}';
 const obj = JSON.parse(textOne);
 
 console.log(obj); // { name: 'Lorem', country: 'Dhaka' }
-console.log(typeof boj); // object
+console.log(typeof obj); // object
