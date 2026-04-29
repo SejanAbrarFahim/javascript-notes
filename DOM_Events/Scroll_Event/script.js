@@ -1,4 +1,4 @@
-let controler = document.querySelector("#conroler");
+let controler = document.querySelector("#controler");
 
 controler.addEventListener("click",(e)=>{
     const scrollExp = document.querySelector("#ScrollExample");

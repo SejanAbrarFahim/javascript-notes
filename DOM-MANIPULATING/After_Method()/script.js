@@ -1,7 +1,7 @@
 const info = document.querySelector("h1"); // select
 
 const h2 = document.createElement("h2"); // created element
-h2.textContent = "this is tag used for after method"; // element value text added
+h2.textContent = "this is h2 tag used for after method"; // element value text added
 
 info.after(h2); // this is tag used for after method
 
