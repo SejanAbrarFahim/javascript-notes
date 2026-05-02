@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class=" my-50 mx-auto w-80">
+        <div>
+            <div class="border rounded-lg px-5">
+                <h1 class="text-center text-3xl font-semibold ">Login</h1>
+
+                <form action="">
+                    <div class="mt-4 ">
+                        <label for="Email" class="text-lg mb-3">Email Address :</label> <br>
+                        <input type="email" class="border border-gray-500 rounded-lg px-1 w-[100%] " id="email" placeholder="Enter your Email">
+                    </div>
+                    <div class="mb-3 mt-5" style="cursor: pointer;">
+                      <label for="password">Password</label>
+                      <div>
+                        <input type="password" class="border border-gray-500 rounded-lg px-1 w-[78%]  name="password" id="pass" placeholder="Enter your password">
+                        <button class="border rounded-lg px-2" id="togglepass">show</button>
+                      </div>
+                      <div class="mt-4 ">
+                        <button class="w-[100%] border rounded-lg bg-blue-500">Login</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
